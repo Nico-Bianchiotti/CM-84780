@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café y granos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Café y granos</h1>
+
+        <nav>
+            <li><a href="index.html">menu</a></li>
+            <li><a href="Cafés.html">Café</a></li>
+            <li><a href="te en hebras.html">te en hebras</a></li>
+            <li><a href="bazar.html">bazar</a></li>
+            <li><a href="contacto.html">contacto</a></li>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="box_grid">
+
+            <h2 class="iten_grid_1">Dejanos tu mensaje</h2>
+
+            <div class="iten_grid_2">
+                <img src="imagenes/ubucacion.jpg" alt="">
+                <p class="Esp_imagen">Encuentranos entre: Av Hipolito Yrigoyen y Blvd San Juan</p>
+            </div>
+
+            <form class="form_style" class="iten_grid_3" action="/submit" method="post">
+                <div>
+                    <label for="Nombre">Nombre y Apellido</label>
+                    <input type="text" name="Nombre" id="Nombre">
+                </div>
+
+                <div>
+                    <label for="Gmail">Gmail</label>
+                    <input type="email" name="Gmail" id="Gmail">
+                </div>
+
+                <div>
+                    <label for="Seleciona un motivo">Seleciona un motivo</label>
+                    <select name="Seleciona un motivo" id="Seleciona un motivo">
+                        <option value="">sugerencia</option>
+                        <option value="">dudas</option>
+                        <option value="">quejas</option>
+                        <option value="">otros</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="mensaje">Dejanos un mensaje</label>
+                    <input type="text" name="mensaje" id="mensaje">
+                </div>
+
+                <input type="submit" value="Enviar">
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="http://www.instagram.com/">instagram</a></li>
+            <li><a href="http://www.facebook.com/">facebook</a></li>
+            <li><a href="http://www.whatsapp.com/">whatsapp</a></li>
+            <li><a href="http://www.youtube.com/">youtube</a></li>
+        </ul>
+        <p>derechos reservados nicolas bianchiotti 2025</p>
+    </footer>
+</body>
+
+</html>

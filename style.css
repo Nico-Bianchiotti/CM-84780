@@ -1,0 +1,256 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(254, 154, 132);
+}
+
+h1 {
+    color: rgb(150, 74, 38);
+    font-family: "Lobster", sans-serif;
+    font-size: 80px;
+    padding-left: 20px;
+}
+
+@media (max-width:540px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+nav {
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    gap: 3%;
+    font-family: "Lobster", sans-serif;
+    max-height: max-content;
+}
+
+li {
+    list-style: none;
+    padding-right: 5px;
+    max-height: max-content;
+}
+
+a {
+    color: rgb(150, 74, 38);
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+@media (max-width:650px) {
+    nav li a {
+        font-size: 22px;
+        text-align: center;
+    }
+}
+
+
+h2 {
+    text-align: center;
+    color: rgb(150, 74, 38);
+    font-size: 60px;
+    font-family: "Lobster", sans-serif;
+    padding-top: 10px;
+}
+
+@media (max-width:540px) {
+    h2 {
+        font-size: 35px;
+    }
+}
+
+.box_menu_cafeteria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width:720px) {
+    .box_menu_cafeteria {
+        justify-content: center;
+    }
+}
+
+h3 {
+    font-size: 40px;
+    color: rgb(150, 74, 38);
+    font-family: "Lobster", sans-serif;
+    text-align: center
+}
+
+@media (max-width:540px) {
+    h3 {
+        font-size: 35px;
+    }
+}
+
+h4 {
+    font-size: 30px;
+    color: rgb(150, 74, 38);
+    font-family: "Lobster", sans-serif;
+}
+
+@media (max-width:540px) {
+    h4 {
+        font-size: 28px;
+    }
+}
+
+h5 {
+    font-size: 40px;
+    color: rgb(150, 74, 38);
+    font-family: "Lobster", sans-serif;
+    text-align: left;
+    margin: 5px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+
+p {
+    font-size: 20px;
+    color: rgb(163, 111, 86);
+    font-family: "Lobster", sans-serif;
+}
+
+.Esp_imagen {
+    color: rgb(150, 74, 38);
+    font-size: 30px;
+    font-family: "Lobster", sans-serif;
+}
+
+footer {
+    color: rgb(150, 74, 38);
+    font-size: 20px;
+}
+
+.bebidas_calientes {
+    max-width: max-content;
+    ;
+    margin: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.bebidas_frias {
+    max-width: max-content;
+    ;
+    margin: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: max-content;
+}
+
+.comidas_dulces {
+    max-width: max-content;
+    margin: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.comidas_saladas {
+    max-width: max-content;
+    margin: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box_imagenes {
+    width: 350px;
+    height: 400px;
+    box-sizing: border-box;
+    margin: 15px;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+.box_cafe_brazilero {
+    box-shadow: 0 0 30px 0 rgba(181, 94, 53, 0.848);
+    margin: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.box_cafe_colombiano {
+    box-shadow: 0 0 30px 0 rgba(181, 94, 53, 0.848);
+    margin: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.te_negro {
+    box-shadow: 0 0 30px 0 rgba(181, 94, 53, 0.848);
+    margin: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.te_verde {
+    box-shadow: 0 0 30px 0 rgba(181, 94, 53, 0.848);
+    margin: 30px;
+    margin-bottom: 50px;
+    align-items: baseline;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    max-height: max-content;
+}
+
+.box_cafeteras_infusores {
+    box-shadow: 0 0 30px 0 rgba(181, 94, 53, 0.848);
+    margin: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+img {
+    width: 350px;
+}
+
+.form_style {
+    font-size: 30px;
+    color: rgb(150, 74, 38);
+    font-family: "Lobster", sans-serif;
+    text-align: center
+}
+
+
+.box_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-areas:
+        "imagen titulo titulo"
+        "imagen form form"
+        "imagen form form";
+}
+
+.iten_grid_1 {
+    grid-area: titulo;
+}
+
+.iten_grid_2 {
+    grid-area: imagen;
+}
+
+.iten_grid_3 {
+    grid-area: form;
+}
